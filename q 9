@@ -1,0 +1,7 @@
+for i in range(4 , 0,-1):
+  for s in range(4-i,0,-1):
+    print(" ",end = " ")
+  for j in range(i,0,-1):
+
+    print("*",end= " ")
+  print(" ")
