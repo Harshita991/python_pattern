@@ -1,0 +1,6 @@
+for i in range(4,0,-1):
+  x= 68
+  for j in range(i,0,-1):
+    print(chr(x),end = " ")
+    x-=1
+  print(" ")
